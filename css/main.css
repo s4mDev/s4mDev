@@ -1001,6 +1001,14 @@ footer .copyright {
   }
 }
 
+.mob-menu {
+  display: none;
+}
+
+.tablet-header {
+  display: none;
+}
+
 @media (max-width: 991px) {
   .first-screen {
     padding-bottom: 60px;
@@ -1123,6 +1131,7 @@ footer .copyright {
   }
   .tablet-header {
     padding-top: 14px;
+    display: block;
     padding-bottom: 14px;
   }
   .tablet-header .row {
@@ -1198,6 +1207,7 @@ footer .copyright {
   }
   .mob-menu {
     position: fixed;
+    display: block;
     right: -100vw;
     width: 100vw;
     top: 0;
@@ -1278,6 +1288,10 @@ footer .copyright {
   .tablet-header .logo svg {
     width: 60px;
   }
+}
+
+.mobile-header {
+  display: none;
 }
 
 @media (max-width: 575px) {
@@ -1446,6 +1460,9 @@ footer .copyright {
   }
   .tablet-header {
     display: none;
+  }
+  .mobile-header {
+    display: block;
   }
   .mobile-header .orange-btn {
     max-width: 111px;
